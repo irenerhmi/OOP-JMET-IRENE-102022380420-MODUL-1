@@ -15,6 +15,7 @@ public class Bank {
     }
 
     // method untuk menghapus akun dari bank
+    //pake acc number
     public void removeAccount(String name) {
         for (int i = 0; i < accounts.size(); i++) {
             Account account = accounts.get(i);
